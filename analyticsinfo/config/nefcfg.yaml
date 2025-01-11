@@ -1,0 +1,26 @@
+info:
+  version: 1.0.0
+  description: NEF initial local configuration
+
+configuration:
+  nefName: NEF
+  sbi:
+    scheme: http  
+    registerIPv4: 127.0.0.55 # IP used to register to NRF
+    bindingIPv4: 127.0.0.55  # IP used to bind the service
+    port: 29599
+    tls:
+      pem: /home/core/merge/niral-5g-core/install/etc/niralos/tls/amf.crt
+      key: /home/core/merge/niral-5g-core/install/etc/niralos/tls/amf.key
+  serviceNameList:
+    - nnef-eventssubscription
+    - nnef-analyticsinfo
+    # Operations:
+    # - nnef-eventssubscription-subscribe
+    # - nnef-eventssubscription-unsubscribe
+    # - nnef-eventssubscription-notify
+    # - nnef-analyticsinfo-request
+  mongodb:
+    name: free5gc
+    url: mongodb://localhost:27017
+  nrfUri: http://127.101.202.10:7777
