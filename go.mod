@@ -1,9 +1,8 @@
-module github.com/geekaamit/NEF-service
+module github.com/NEF-service
 
 go 1.14
 
-require (
-        github.com/geekaamit/NEF-service/service v1.0.0
+require(
 	github.com/antonfisher/nested-logrus-formatter v1.3.0
 	github.com/cpuguy83/go-md2man/v2 v2.0.0 // indirect
 	github.com/free5gc/MongoDBLibrary v1.0.0
