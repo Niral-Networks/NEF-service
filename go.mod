@@ -1,4 +1,4 @@
-module github.com/NEF-service
+module github.com/geekaamit/NEF-service
 
 go 1.14
 
