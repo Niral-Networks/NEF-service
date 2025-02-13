@@ -19,6 +19,9 @@ require (
 	go.mongodb.org/mongo-driver v1.17.2
 	golang.org/x/net v0.21.0
 	gopkg.in/yaml.v2 v2.4.0
+        github.com/geekaamit/NEF-service/logger v1.0.0
+        github.com/geekaamit/NEF-service/service v1.0.0
+        github.com/geekaamit/NEF-service/version v1.0.0
 )
 
 require (
