@@ -19,9 +19,6 @@ require (
 	go.mongodb.org/mongo-driver v1.17.2
 	golang.org/x/net v0.21.0
 	gopkg.in/yaml.v2 v2.4.0
-        github.com/geekaamit/NEF-service/logger v1.0.0
-        github.com/geekaamit/NEF-service/service v1.0.0
-        github.com/geekaamit/NEF-service/version v1.0.0
 )
 
 require (
@@ -63,3 +60,8 @@ require (
 	gopkg.in/h2non/gock.v1 v1.0.16 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+replace github.com/geekaamit/NEF-service/logger => ./logger
+replace github.com/geekaamit/NEF-service/service => ./service
+replace github.com/geekaamit/NEF-service/version => ./version
+
