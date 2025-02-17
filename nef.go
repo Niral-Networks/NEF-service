@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/geekaamit/NEF-service/logger"
-	nef_service "github.com/geekaamit/NEF-service/service"
-	"github.com/geekaamit/NEF-service/version"
+	"./logger"
+	nef_service "./service"
+	"./version"
 
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli"
