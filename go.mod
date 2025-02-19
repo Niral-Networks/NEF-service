@@ -27,6 +27,7 @@ require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible // indirect
 	github.com/evanphx/json-patch v4.9.0+incompatible // indirect
+	github.com/geekaamit/NEF-service/service v0.0.0-00010101000000-000000000000 // indirect
 	github.com/gin-contrib/sse v0.1.0 // indirect
 	github.com/go-playground/locales v0.13.0 // indirect
 	github.com/go-playground/universal-translator v0.17.0 // indirect
@@ -62,6 +63,7 @@ require (
 )
 
 replace github.com/geekaamit/NEF-service/logger => ./logger
-replace github.com/geekaamit/NEF-service/service => ./service
-replace github.com/geekaamit/NEF-service/version => ./version
 
+replace github.com/geekaamit/NEF-service/service => ./service
+
+replace github.com/geekaamit/NEF-service/version => ./version
