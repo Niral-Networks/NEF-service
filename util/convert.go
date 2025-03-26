@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strconv"
 
+	"github.com/Niral-Networks/NEF-service/logger"
 	"github.com/free5gc/openapi/models"
-	"github.com/geekaamit/NEF-service/logger"
 
 	"go.mongodb.org/mongo-driver/bson"
 )

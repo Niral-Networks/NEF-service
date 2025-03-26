@@ -9,9 +9,9 @@ package eventssubscription
 import (
 	"net/http"
 
+	"github.com/Niral-Networks/NEF-service/commom"
+	"github.com/Niral-Networks/NEF-service/logger"
 	"github.com/free5gc/logger_util"
-	"github.com/geekaamit/NEF-service/commom"
-	"github.com/geekaamit/NEF-service/logger"
 	"github.com/gin-gonic/gin"
 )
 

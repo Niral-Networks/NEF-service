@@ -8,12 +8,12 @@ import (
 	"net/http"
 	"strings"
 
+	"github.com/Niral-Networks/NEF-service/consumer"
+	nef_context "github.com/Niral-Networks/NEF-service/context"
+	"github.com/Niral-Networks/NEF-service/factory"
+	"github.com/Niral-Networks/NEF-service/util"
 	"github.com/free5gc/openapi/Nnrf_NFDiscovery"
 	"github.com/free5gc/openapi/models"
-	"github.com/geekaamit/NEF-service/consumer"
-	nef_context "github.com/geekaamit/NEF-service/context"
-	"github.com/geekaamit/NEF-service/factory"
-	"github.com/geekaamit/NEF-service/util"
 )
 
 func InitEventExposureSubscriber(self *nef_context.NEFContext) {

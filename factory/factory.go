@@ -10,7 +10,7 @@ import (
 
 	"gopkg.in/yaml.v2"
 
-	"github.com/geekaamit/NEF-service/logger"
+	"github.com/Niral-Networks/NEF-service/logger"
 )
 
 var NefConfig Config

@@ -5,7 +5,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/geekaamit/NEF-service/model"
+	"github.com/Niral-Networks/NEF-service/model"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"

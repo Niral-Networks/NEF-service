@@ -6,10 +6,10 @@ import (
 
 	"github.com/google/uuid"
 
+	nef_context "github.com/Niral-Networks/NEF-service/context"
+	"github.com/Niral-Networks/NEF-service/factory"
+	"github.com/Niral-Networks/NEF-service/logger"
 	"github.com/free5gc/openapi/models"
-	nef_context "github.com/geekaamit/NEF-service/context"
-	"github.com/geekaamit/NEF-service/factory"
-	"github.com/geekaamit/NEF-service/logger"
 )
 
 func InitNefContext(context *nef_context.NEFContext) {

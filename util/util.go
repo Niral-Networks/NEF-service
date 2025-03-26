@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"os"
 
+	"github.com/Niral-Networks/NEF-service/model"
 	"github.com/free5gc/openapi/models"
-	"github.com/geekaamit/NEF-service/model"
 	"golang.org/x/net/http2"
 )
 

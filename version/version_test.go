@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/geekaamit/NEF-service/version"
+	"github.com/Niral-Networks/NEF-service/version"
 
 	"github.com/stretchr/testify/assert"
 )

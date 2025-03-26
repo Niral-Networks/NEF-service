@@ -7,10 +7,10 @@ import (
 	"strings"
 	"time"
 
+	nef_context "github.com/Niral-Networks/NEF-service/context"
+	"github.com/Niral-Networks/NEF-service/factory"
 	"github.com/free5gc/openapi/Nnrf_NFManagement"
 	"github.com/free5gc/openapi/models"
-	nef_context "github.com/geekaamit/NEF-service/context"
-	"github.com/geekaamit/NEF-service/factory"
 )
 
 func BuildNFInstance(context *nef_context.NEFContext) models.NfProfile {

@@ -10,10 +10,10 @@ import (
 	"sync"
 	"time"
 
+	"github.com/Niral-Networks/NEF-service/analyticsinfo"
+	"github.com/Niral-Networks/NEF-service/datacollection"
+	"github.com/Niral-Networks/NEF-service/eventssubscription"
 	mongoDBLibLogger "github.com/free5gc/MongoDBLibrary/logger"
-	"github.com/geekaamit/NEF-service/analyticsinfo"
-	"github.com/geekaamit/NEF-service/datacollection"
-	"github.com/geekaamit/NEF-service/eventssubscription"
 
 	//"github.com/free5gc/http2_util"
 	openApiLogger "github.com/free5gc/openapi/logger"
@@ -22,15 +22,15 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli"
 
+	"github.com/Niral-Networks/NEF-service/consumer"
+	nef_context "github.com/Niral-Networks/NEF-service/context"
+	"github.com/Niral-Networks/NEF-service/factory"
+	"github.com/Niral-Networks/NEF-service/logger"
+	"github.com/Niral-Networks/NEF-service/util"
 	"github.com/free5gc/MongoDBLibrary"
 	"github.com/free5gc/http2_util"
 	"github.com/free5gc/logger_util"
 	"github.com/free5gc/openapi/models"
-	"github.com/geekaamit/NEF-service/consumer"
-	nef_context "github.com/geekaamit/NEF-service/context"
-	"github.com/geekaamit/NEF-service/factory"
-	"github.com/geekaamit/NEF-service/logger"
-	"github.com/geekaamit/NEF-service/util"
 )
 
 type timerFunc func()
